@@ -1,0 +1,5 @@
+{
+  "name": "Lipascore",
+  "description": "AI-powered creditworthiness prototype using alternative data like M-Pesa patterns and utility payments.",
+  "requestFramePermissions": []
+}

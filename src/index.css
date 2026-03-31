@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+  --color-safaricom-green: #49B249;
+  --color-safaricom-red: #E61E26;
+  --color-light-bg: #F8F9FA;
+  --color-light-card: #FFFFFF;
+  --color-light-border: #E5E7EB;
+}
+
+body {
+  background-color: var(--color-light-bg);
+  color: #1A1A1A;
+  font-family: 'Inter', sans-serif;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--color-light-border);
+}
+
+.safaricom-gradient {
+  background: linear-gradient(135deg, #49B249 0%, #3a8e3a 100%);
+}
+
+@layer base {
+  * {
+    @apply border-light-border;
+  }
+}
